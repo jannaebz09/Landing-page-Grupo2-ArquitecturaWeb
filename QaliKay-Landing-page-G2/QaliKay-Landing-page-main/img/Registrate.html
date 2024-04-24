@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header> 
+        <div class="caja"> 
+            <h1> <img src="img/LogoPrincipal.png" alt="Logo de QalikayApp"></h1>
+            <nav> 
+                <ul> 
+                    <li><a href="index.html"> Inicio </a></li>
+                    <li><a href="Nosotros.html"> Nosotros </a></li>
+                    <li><a href="contactanos.html"> Contactos </a></li>
+                    <li><a href="Registrate.html"> Registrate </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+
+            <img id="ImagenRegistro" src="imagenes/dibujo-ANIMATION.gif">
+            <p id="mensajeregistro">Estas a punto de ser parte</p>
+            <p id="mensajeregistro2">de nuestra comunidad. Fantastico!</p>
+
+            <p id="Registrate"> REGISTRATE </p>
+
+            <label for="nombreyapellido"> Nombre y Apellido </label>
+            <input type="text" id="nombreyapellido" class="CajaTexto" required> 
+
+            <label for="correoelectronico"> Correo Electronico </label>
+            <input type="email" id="correoelectronico" class="positionTexto" required placeholder="ejemplo@ejemplo.com">
+
+            <label for="Celular"> Celular </label>
+            <input type="tel" id="Celular" class="CajaTexto" required placeholder="xx-xxx xxx xxx">
+
+            <label for="Direccion"> Direccion </label>
+            <input type="tex" id="Direccion" class="positionTexto">
+
+            <label form="Contraseña"> Contraseña </label>
+            <input type="password" id="Contraseña" class="CajaTexto" required>
+
+            <label form="Confirma tu Contraseña"> Cofirmar tu Contraseña </label>
+            <input type="password" id="confirma tu Contraseña" class="CajaTexto" required>
+
+            <label for="DatosExtra"> Cuentanos sobre ti</label>
+            <textarea cols="70" rows="10" id="DatosExtra" class="CajaTexto" required placeholder="Hobbie, ocupaciones,otro"> </textarea>
+        
+            <input type="submit" name="contactanos" value="Registrate" class="registrate">
+        
+        </form>
+
+    </main>    
+
+    <footer>
+        <p id="creditos"> &copy Copyright QaliKayApp - 2023 </p>
+    </footer>
+
+</body>
+
+
+</html>
